@@ -157,7 +157,7 @@ footer:
       icon: "fab fa-fw fa-gitlab"
       # url:
     - label: "Gitee"
-      icon: "fab fa-fw fa-gitlab"
+      icon: "fab fa-fw fa-gitee"
       url: "https://gitee.com/sheng-zixuan"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
