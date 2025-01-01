@@ -3,10 +3,10 @@ main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
-    url: https://segzix.github.io/about/
+    url: /docs/about/
   - title: "Sample Posts"
-    url: https://segzix.github.io/year-archive/
+    url: /year-archive/
   - title: "Sample Collections"
-    url: https://segzix.github.io/collection-archive/
+    url: /collection-archive/
   - title: "Sitemap"
-    url: https://segzix.github.io/sitemap/
+    url: /sitemap/
