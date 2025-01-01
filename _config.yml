@@ -130,7 +130,7 @@ author:
       url: "https://x.com/segzix"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=61570377432670"
+      url: "https://www.facebook.com/Shawn%20Segzix"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/segzix"
@@ -146,22 +146,25 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://x.com/segzix"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/Shawn%20Segzix"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/segzix"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
+    - label: "Gitee"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitee.com/sheng-zixuan"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/segzix"
 
 
 # Reading Files
