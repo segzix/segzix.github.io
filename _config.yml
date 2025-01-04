@@ -317,7 +317,6 @@ compress_html:
 collections:
   posts:
     output: true
-    permalink: /:collection/:path/
 
 
 
