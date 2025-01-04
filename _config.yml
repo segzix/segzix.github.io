@@ -317,6 +317,9 @@ compress_html:
 collections:
   posts:
     output: true
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 
 
