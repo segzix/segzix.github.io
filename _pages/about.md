@@ -14,7 +14,6 @@ layouts_gallery:
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
 last_modified_at: 2022-05-27T11:59:26-04:00
-author_profile: true
 toc: true
 ---
 # 这个网站目前还没有搭建起来，是基于mmistakes的模板构建的。由于搭建者是一个前端萌新，因此只能一边搭建一边学习了，还请见谅qwq。
