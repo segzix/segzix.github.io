@@ -156,9 +156,6 @@ footer:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Gitee"
-      icon: "/assets/images/gitee.jpg"
-      url: "https://gitee.com/sheng-zixuan"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -315,6 +312,13 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
+
 
 
 # Defaults
