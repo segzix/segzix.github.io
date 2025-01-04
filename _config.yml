@@ -315,7 +315,7 @@ compress_html:
 
 
 collections:
-  posts:
+  _posts:
     output: true
   portfolio:
     output: true
