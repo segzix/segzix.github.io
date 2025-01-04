@@ -11,7 +11,7 @@ main:
   - title: "Sitemap"
     url: /sitemap/
 
-docs:
+pages:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
