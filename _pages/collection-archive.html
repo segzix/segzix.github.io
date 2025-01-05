@@ -8,20 +8,39 @@ author_profile: true
 {% capture written_label %}'None'{% endcapture %}
 
 {% for collection in site.collections %}
-  {% unless collection.output == false or collection.label == "posts" %}
+  
+  {% unless collection.output == false %}
     {% capture label %}{{ collection.label }}{% endcapture %}
+    
+    <!-- 显示每个集合 -->
     {% if label != written_label %}
       <!-- <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2> -->
-      <!-- 构建集合标签的超链接 -->
       <h2 id="{{ label | slugify }}" class="archive__subtitle">
         <a href="/{{ label | slugify | downcase }}/">{{ label }}</a>
       </h2>
       {% capture written_label %}{{ label }}{% endcapture %}
     {% endif %}
+
+    <!-- 在每个集合中显示分类 -->
+    <ul>
+      {% assign categories = "" %}
+      {% for post in collection.docs %}
+        {% if post.categories %}
+          {% assign categories = categories | append: post.categories | join: ',' %}
+        {% endif %} 
+      {% endfor %}
+      {% assign unique_categories = categories | split: ',' | uniq %}
+
+      {% for category in unique_categories %}
+        <li><a href="/categories/{{ category | slugify | downcase }}/">{{ category }}</a></li>
+      {% endfor %}
+    </ul>
+
+    {% for post in collection.docs %}
+      {% unless collection.output == false %}
+        {% include archive-single.html %}
+      {% endunless %}
+    {% endfor %}
   {% endunless %}
-  {% for post in collection.docs %}
-    {% unless collection.output == false or collection.label == "posts" %}
-      {% include archive-single.html %}
-    {% endunless %}
-  {% endfor %}
+
 {% endfor %}
