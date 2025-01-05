@@ -36,11 +36,6 @@ author_profile: true
       {% endfor %}
     </ul>
 
-    {% for post in collection.docs %}
-      {% unless collection.output == false %}
-        {% include archive-single.html %}
-      {% endunless %}
-    {% endfor %}
   {% endunless %}
 
 {% endfor %}
