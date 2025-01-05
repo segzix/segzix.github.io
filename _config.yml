@@ -336,7 +336,8 @@ defaults:
       comments: true
       share: true
       related: true
-      views: 20
+      starposts: true
+      stars: 20
   # _pages
   - scope:
       path: ""
@@ -344,6 +345,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      hotposts: true
+      starposts: true
       sidebar:
         nav: "collections"

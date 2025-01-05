@@ -2,11 +2,10 @@
 <div class="sidebar__hot-posts">
     <h3>Hot Posts</h3>
     <ul>
-      {% assign hot_posts = site.posts | sort: 'views' | reverse %}
+      {% assign hot_posts = site.posts | sort: 'stars' | reverse %}
       {% for post in hot_posts limit:5 %}
         <li>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
-          <span class="views">({{ post.views }} views)</span>
         </li>
       {% endfor %}
     </ul>
