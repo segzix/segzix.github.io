@@ -315,9 +315,13 @@ compress_html:
 
 
 collections:
-  portfolio:
+  smalltalks:
     output: true
     permalink: /:collection/:path/
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
 
 
 
