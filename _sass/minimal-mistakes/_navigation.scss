@@ -445,7 +445,6 @@
   }
 
   .active {
-    list-style-type: disc;
     margin-inline-start: -0.5em;
     padding-inline: 0.5em;
     font-weight: bold;
@@ -492,7 +491,7 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-2;
+  font-size: $type-size-5;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
