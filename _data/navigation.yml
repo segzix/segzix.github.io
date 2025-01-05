@@ -12,12 +12,15 @@ main:
     url: /sitemap/
 
 collections:
-  - title: "Posts"
-    url: /collections/posts/
-  - title: "Docs"
-    url: /collections/docs/
-  - title: "Smalltalks"
-    url: /collections/smalltalks/
+  - title: "Collections"
+    url: /collection-archive/
+    children:
+      - title: "Posts"
+        url: /collections/posts/
+      - title: "Docs"
+        url: /collections/docs/
+      - title: "Smalltalks"
+        url: /collections/smalltalks/
 
 pages:
   - title: Hot posts
