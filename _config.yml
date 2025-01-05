@@ -347,5 +347,6 @@ defaults:
     values:
       layout: single
       author_profile: true
+      hotposts: true
       sidebar:
         nav: "pages"
