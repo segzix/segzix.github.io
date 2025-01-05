@@ -23,16 +23,18 @@ author_profile: true
 
     <!-- 在每个集合中显示分类 -->
     <ul>
-      {% assign categories = "" %}
+      {% assign displayed_categories = "" %}
       {% for post in collection.docs %}
         {% if post.categories %}
-          {% assign categories = categories | append: post.categories | join: ',' %}
-        {% endif %} 
-      {% endfor %}
-      {% assign unique_categories = categories | split: ',' | uniq %}
-
-      {% for category in unique_categories %}
-        <li><a href="/categories/{{ category | strip | slugify | downcase }}/">{{ category | strip }}</a></li>
+          {% for category in post.categories %}
+            {% unless displayed_categories contains category %}
+              <li>
+                <a href="/categories/{{ category | remove: '"' | strip | slugify | downcase }}/">{{ category | remove: '"' | strip }}</a>
+              </li>
+              {% assign displayed_categories = displayed_categories | append: category | append: ',' %}
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
       {% endfor %}
     </ul>
 
