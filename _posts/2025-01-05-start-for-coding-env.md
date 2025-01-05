@@ -1,6 +1,6 @@
 ---
 title: "Start Coding Env posts!"
 categories:
-  - coding env
+  - coding-env
 tags:
 ---
