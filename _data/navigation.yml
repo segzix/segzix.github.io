@@ -5,14 +5,14 @@ main:
   - title: "About"
     url: /about/
   - title: "Posts"
-    url: /year-archive/
+    url: /year-month-archive/
   - title: "Collections"
     url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
 
 pages:
-  - title: Getting Started
+  - title: Hot posts
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/

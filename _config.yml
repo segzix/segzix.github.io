@@ -339,6 +339,7 @@ defaults:
       comments: true
       share: true
       related: true
+      views: 20
   # _pages
   - scope:
       path: ""
