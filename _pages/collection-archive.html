@@ -23,7 +23,7 @@ author_profile: true
 
     <!-- 在每个集合中显示分类 -->
     <ul>
-      {% assign displayed_categories = "" %}
+      {% assign displayed_categories = "" | split: ", " %}
       {% for post in collection.docs %}
         {% if post.categories %}
           {% for category in post.categories %}
@@ -31,7 +31,7 @@ author_profile: true
               <li>
                 <a href="/categories/{{ category | remove: '"' | strip | slugify | downcase }}/">{{ category | remove: '"' | strip }}</a>
               </li>
-              {% assign displayed_categories = displayed_categories | append: category | append: ',' %}
+              {% assign displayed_categories = displayed_categories | push: category %}
             {% endunless %}
           {% endfor %}
         {% endif %}
