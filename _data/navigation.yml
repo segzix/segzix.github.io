@@ -11,15 +11,13 @@ main:
   - title: "Sitemap"
     url: /sitemap/
 
-hotposts:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-  - title: "Structure"
-    url: /docs/structure/
-  - title: "Installation"
-    url: /docs/installation/
-  - title: "Upgrading"
-    url: /docs/upgrading/
+collections:
+  - title: "Posts"
+    url: /collections/posts/
+  - title: "Docs"
+    url: /collections/docs/
+  - title: "Smalltalks"
+    url: /collections/smalltalks/
 
 pages:
   - title: Hot posts

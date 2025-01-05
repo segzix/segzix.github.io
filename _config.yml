@@ -322,9 +322,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
-
-
 # Defaults
 defaults:
   # _posts
@@ -349,4 +346,4 @@ defaults:
       author_profile: true
       hotposts: true
       sidebar:
-        nav: "pages"
+        nav: "collections"
