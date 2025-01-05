@@ -32,7 +32,7 @@ author_profile: true
       {% assign unique_categories = categories | split: ',' | uniq %}
 
       {% for category in unique_categories %}
-        <li><a href="/categories/{{ category | slugify | downcase }}/">{{ category }}</a></li>
+        <li><a href="/categories/{{ category | strip | slugify | downcase }}/">{{ category | strip }}</a></li>
       {% endfor %}
     </ul>
 
