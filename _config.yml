@@ -337,7 +337,7 @@ defaults:
       share: true
       related: true
       starposts: true
-      stars: 20
+      stars: 0
   # _pages
   - scope:
       path: ""
