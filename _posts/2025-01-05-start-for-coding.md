@@ -1,8 +1,7 @@
 ---
-title: "Start Network posts!"
+title: "Start Coding posts!"
 categories:
-  - network
+  - coding
 tags:
   - test
-
 ---
