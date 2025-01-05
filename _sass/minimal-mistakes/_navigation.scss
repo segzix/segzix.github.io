@@ -482,11 +482,12 @@
   margin: 0;
   padding: 0.5rem 0.75rem;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
   font-weight: bold;
 }
 
 .nav__sub-title {
+  list-style-type: disc;
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
