@@ -10,7 +10,7 @@ A list of all the posts and pages found on the site. For you robots out there is
 {% for post in site.pages %}
   {% unless post.path contains '/categories/' or 
             post.path contains '/collections/' %}
-    {% include archive-single.html %}
+    {%- include archive-single.html -%}
   {% endunless %}
 {% endfor %}
 
