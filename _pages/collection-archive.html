@@ -17,7 +17,7 @@ author_profile: true
     {% if label != written_label %}
       <!-- <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2> -->
       <h2 id="{{ label | slugify }}" class="archive__subtitle">
-        <a href="/{{ label | slugify | downcase }}/">{{ label }}</a>
+        <a href="/collections/{{ label | slugify | downcase }}/">{{ label }}</a>
       </h2>
       {% capture written_label %}{{ label }}{% endcapture %}
     {% endif %}
