@@ -2,7 +2,7 @@
 title: rdma_state的相关转化与思考
 categories:
   - coding
-star: "8"
+stars: 8
 ---
 
 ---

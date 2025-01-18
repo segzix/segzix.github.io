@@ -339,6 +339,16 @@ defaults:
       related: true
       starposts: true
       stars: 0
+  # _smalltalks
+  - scope:
+      path: ""
+      type: smalltalks
+    values:
+      show_date: true
+      layout: single
+      author_profile: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: ""
