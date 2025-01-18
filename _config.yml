@@ -169,6 +169,7 @@ include:
   - .htaccess
   - _pages
   - _docs
+  - _smalltalks
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
