@@ -341,14 +341,14 @@ defaults:
       stars: 0
   # _smalltalks
   - scope:
-      path: ""
-      type: smalltalks
+      path: "_smalltalks"
+      type: "smalltalks"
     values:
-      show_date: true
       layout: single
       author_profile: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: ""
