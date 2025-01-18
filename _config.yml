@@ -341,7 +341,7 @@ defaults:
       stars: 0
   # _smalltalks
   - scope:
-      path: "_smalltalks"
+      path: ""
       type: "smalltalks"
     values:
       layout: single
