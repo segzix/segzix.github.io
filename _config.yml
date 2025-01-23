@@ -170,6 +170,7 @@ include:
   - _pages
   - _docs
   - _smalltalks
+  - _draws
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
