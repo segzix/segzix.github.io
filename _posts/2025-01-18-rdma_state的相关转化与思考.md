@@ -9,7 +9,7 @@ stars: 8
 
 
 ### 基本流程
-[rdma state状态机，相关变量以及thread work](../_draws/rdma_state.svg)
+[rdma state状态机，相关变量以及thread work](/_draws/rdma_state.svg)
 
 ### 心路历程
 1. 最开始思考这个问题时，并没有考虑到需要新增加一个状态，认为和发送端一样维护两个状态，由listen thread和server thread分别来做各自的工作就可以了；如果需要进行定时的下发，是准备做一个flags数组来做这件事情的；
