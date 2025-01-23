@@ -337,6 +337,7 @@ defaults:
     values:
       show_date: true
       layout: single
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -349,7 +350,7 @@ defaults:
       type: "smalltalks"
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       related: true
   # _debug
   - scope:
@@ -357,7 +358,7 @@ defaults:
       type: "debug"
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       related: true
   # _pages
   - scope:
