@@ -100,7 +100,15 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name/account
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
@@ -134,7 +142,12 @@ author:
       url: "https://t.me/Shawn"
 
 # Site Footer
-footer:/account
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/segzix"
+    - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/Shawn%20Segzix"
     - label: "GitHub"
@@ -245,11 +258,11 @@ plugins:
   - jekyll-feed/account
   - jekyll-include-cache
 
-
+  
 # Archives
 #  Type/account
-  type: liquid
-  path: /tags/
+# type: liquid
+# path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
