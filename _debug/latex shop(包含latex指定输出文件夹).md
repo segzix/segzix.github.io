@@ -1,3 +1,8 @@
+---
+title: "vscode latexshop 插件配置问题"
+categories:
+tags:
+---
 ```
 "name": "xelatex",
 
@@ -19,5 +24,6 @@
 ```
 
 注意只能是这种形式
+
 - `-output-directory=xxx`，其他的参数不可(`-outDir=xxx`不可)
 - 指定文件夹和文件必须跟在最后

@@ -1,4 +1,8 @@
-
+---
+title: "rdma_listen接收不到ibv_post_recv"
+categories:
+tags:
+---
 #### 日志文件
 
 ibv_post_send方
@@ -34,3 +38,5 @@ ibv_post_recv方
 
 [INFO] [Thread client] (rdma/rdma_client.c:85:rdma_client) Send outqueue[0] msg <pkDHTxmMR18N2l9> successfully
 ```
+
+这种问题最终还是因为wr下发时出现的问题
