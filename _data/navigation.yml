@@ -21,3 +21,5 @@ collections:
         url: /collections/docs/
       - title: "Smalltalks"
         url: /collections/smalltalks/
+      - title: "Debug"
+        url: /collections/debug/

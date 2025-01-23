@@ -169,6 +169,7 @@ include:
   - .htaccess
   - _pages
   - _docs
+  - _debug
   - _smalltalks
   - _draws
 exclude:
@@ -320,6 +321,9 @@ collections:
   smalltalks:
     output: true
     permalink: /:collection/:path/
+  debug:
+    output: true
+    permalink: /:collection/:path/
   docs:
     output: true
     permalink: /:collection/:path/
@@ -343,6 +347,14 @@ defaults:
   - scope:
       path: ""
       type: "smalltalks"
+    values:
+      layout: single
+      author_profile: true
+      related: true
+  # _debug
+  - scope:
+      path: ""
+      type: "debug"
     values:
       layout: single
       author_profile: true
