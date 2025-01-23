@@ -4,4 +4,4 @@ layout: category
 permalink: /categories/course/
 taxonomy: course
 ---
-Sample post listing for the category `course`
+ `course `是我在学校课程学习过程中的思考。

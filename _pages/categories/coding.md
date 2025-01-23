@@ -4,4 +4,4 @@ layout: category
 permalink: /categories/coding/
 taxonomy: coding
 ---
-Sample post listing for the category `coding`
+`coding` 是关于我实际写代码过程中的一些思考。
