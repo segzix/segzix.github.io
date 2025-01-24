@@ -1,6 +1,6 @@
 ---
 title: "MyBooks"
-permalink: /collections/docs/
+permalink: /collections/books/
 layout: default
 entries_layout: list
 classes: wide
