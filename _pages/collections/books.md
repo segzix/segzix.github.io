@@ -1,5 +1,9 @@
 ---
 title: "MyBooks"
+permalink: /collections/docs/
+layout: default
+entries_layout: list
+classes: wide
 categories:
 tags:
 ---
