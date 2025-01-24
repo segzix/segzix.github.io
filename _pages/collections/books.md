@@ -17,3 +17,9 @@ tags:
 <a href="/_books/The-Mythical-Man-Month.pdf" download="The-Mythical-Man-Month.pdf">人月神话(.pdf)</a>
 
 ---
+
+### 制度基因：中国制度与极权主义制度的起源(许成钢)
+
+<a href="/_books/制度基因.pdf" download="制度基因：中国制度与极权主义制度的起源(许成钢).pdf">制度制度基因：中国制度与极权主义制度的起源(许成钢)(.pdf)</a>
+
+---
