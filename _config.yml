@@ -283,6 +283,9 @@ collections:
   debug:
     output: true
     permalink: /:collection/:path/
+  books:
+    output: true
+    permalink: /:collection/:path/
   docs:
     output: true
     permalink: /:collection/:path/
@@ -323,6 +326,14 @@ defaults:
   - scope:
       path: ""
       type: "docs"
+    values:
+      layout: single
+      author_profile: false
+      related: true
+  # _books
+  - scope:
+      path: ""
+      type: "books"
     values:
       layout: single
       author_profile: false
