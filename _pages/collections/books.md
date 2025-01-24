@@ -1,7 +1,7 @@
 ---
 title: "MyBooks"
 permalink: /collections/books/
-layout: default
+layout: archive
 entries_layout: list
 classes: wide
 categories:
