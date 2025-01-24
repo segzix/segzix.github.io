@@ -170,6 +170,7 @@ include:
   - _debug
   - _smalltalks
   - _draws
+  - _books
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
