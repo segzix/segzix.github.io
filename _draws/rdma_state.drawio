@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="EJ6dvWvoU64ozF4Sr17x" name="第 1 页">
-        <mxGraphModel dx="2338" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+        <mxGraphModel dx="838" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -44,12 +44,12 @@
                     <mxGeometry x="45" y="600" width="270" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="&lt;ul&gt;&lt;li&gt;post point: 记录每次state 3-&amp;gt;state 1的起始wr&lt;/li&gt;&lt;li&gt;post_value: 记录当前有多少个处于state 1的wr&amp;nbsp;&lt;/li&gt;&lt;li&gt;head point: 记录每次state 1-&amp;gt;state 2的起始wr&lt;/li&gt;&lt;li&gt;busy_value: 记录当前有多少个处于state 2的wr&lt;/li&gt;&lt;li&gt;tail point: 记录每次state 2-&amp;gt;state 3的起始wr&lt;/li&gt;&lt;li&gt;free_value: 记录当前有多少个处于state 3的wr&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=22;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="620" width="610" height="230" as="geometry"/>
+                    <mxGeometry x="40" y="620" width="600" height="230" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="thread action to point and value" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fontSize=22;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="110" y="910" width="630" height="560" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="listen&#10;thread" style="shape=tableRow;horizontal=0;startSize=80;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fontSize=22;" parent="30" vertex="1">
+                <mxCell id="31" value="listen&#xa;thread" style="shape=tableRow;horizontal=0;startSize=80;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fontSize=22;" parent="30" vertex="1">
                     <mxGeometry y="40" width="630" height="174" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="Phase 1" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fontSize=22;" parent="31" vertex="1">
@@ -73,10 +73,10 @@
                         <mxRectangle width="182" height="174" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="46" value="post_value--" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" parent="34" vertex="1">
+                <mxCell id="46" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;post_value--&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" parent="34" vertex="1">
                     <mxGeometry x="20" y="85" width="140" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="server &#10;thread" style="shape=tableRow;horizontal=0;startSize=80;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fontSize=22;" parent="30" vertex="1">
+                <mxCell id="35" value="server &#xa;thread" style="shape=tableRow;horizontal=0;startSize=80;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fontSize=22;" parent="30" vertex="1">
                     <mxGeometry y="214" width="630" height="172" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fontSize=22;" parent="35" vertex="1">
@@ -103,7 +103,7 @@
                 <mxCell id="52" value="busy_value--" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" parent="38" vertex="1">
                     <mxGeometry x="17" y="66" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="server &#10;thread&#10;(check_flags)" style="shape=tableRow;horizontal=0;startSize=80;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fontSize=22;" parent="30" vertex="1">
+                <mxCell id="39" value="server &#xa;thread&#xa;(check_flags)" style="shape=tableRow;horizontal=0;startSize=80;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fontSize=22;" parent="30" vertex="1">
                     <mxGeometry y="386" width="630" height="174" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fontSize=22;" parent="39" vertex="1">
