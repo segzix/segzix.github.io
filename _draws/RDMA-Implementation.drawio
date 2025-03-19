@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="第 1 页" id="8HNuakOhWHHSlQ6u5v0D">
+    <mxGraphModel dx="1129" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="295" width="680" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-4" value="InfiniBand" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-5" value="iWARP" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="560" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-7" value="IB 链路层" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="80" y="478" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-8" value="IB 传输层" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="80" y="339" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-10" value="以太网链路层" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="400" y="478" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-11" value="IB 网络层" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="80" y="398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-14" value="RDMAP" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="560" y="330" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-15" value="RoCEv1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="240" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-16" value="RoCEv2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="400" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-17" value="TCP" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="560" y="398" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-18" value="IP" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="560" y="428" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-19" value="IB 传输层" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="240" y="339" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-20" value="IB 传输层" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="400" y="339" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-21" value="IB 网络层" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="240" y="398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-22" value="UDP" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="400" y="398" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-23" value="IP" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="400" y="428" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-24" value="以太网链路层" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="240" y="478" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-25" value="以太网链路层" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="560" y="478" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-27" value="Verbs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="30" y="265" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ0j15Ri3VDnBn-HsaX4-28" value="RDMA 应用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="90" y="202" width="580" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="chPQQk_R9g1TRAWgmZIm-1" value="DDP" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="120" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="chPQQk_R9g1TRAWgmZIm-2" value="MPA" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="368" width="120" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15">
+  <diagram name="Page-1" id="v66AktTzpod-a9Du4VCS">
+    <mxGraphModel dx="1035" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-2" value="终止上一个区间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-3" value="1.遍历 cache ，检查是否在上一个区间内被修改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="365" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-4" value="2. 计算 diffs，放入diffmsg[] 相应的消息中，封装满后发送至其 home 主机&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;同时，将修改的页的地址记录到 lock（栈顶） 的记录列表中，并记录标识号为 Maxhosts&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-5" value="3. 将修改的本地页的地址记录到 lock（栈顶）的记录列表中，并记录标识号为 Maxhosts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="415" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-7" value="4. 获取锁，向 lock 的 home 节点发送 ACQ 消息，忙等至得到锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="510" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="495" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-9" value="获取锁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="683" width="20" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-11" value="开启一个新区间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="731.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-13" value="5. 重置 cache 表状态，收回写权限，置状态为只读，（可选）释放 twin 空间&lt;div&gt;重置 home 表，置写通知为零，收回写权限&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="690" width="435" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="891" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-15" value="将锁入栈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="935" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cQEdT7YkVR5VpeKnOx-h-16" value="6. 将锁 id 入栈（现在栈顶是该锁）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="890" width="435" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
