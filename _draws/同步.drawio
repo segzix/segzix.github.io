@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15">
+  <diagram id="K0vm7Q18EnF0p0SAzZCc" name="Page-1">
+    <mxGraphModel dx="1467" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="20" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-4" value="终止一个区间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="265" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-5" value="1.遍历 cache ，检查是否在上一个区间内被修改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="365" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-6" value="2. 计算 diffs，放入diffmsg[] 相应的消息中，发送至其 home 主机&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;同时，将修改的页的地址记录到 lock（顶部barrier） 的记录列表中，并记录标识号为 Maxhosts&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-7" value="3. 将修改的本地页的地址记录到 lock（栈顶）的记录列表中，并记录标识号为 Maxhosts&lt;div&gt;将本地页的副本标识（远端是否有该页的副本）置为0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="405" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-8" value="4. 将锁id与锁的记录列表封装到 WTNT 消息，发送给 barrier（栈顶） 的home 主机，设置 scope 为 locks[hidelock].myscope。&lt;div&gt;模式可能为 WTNT，...， WTNT，BARR&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-9" value="5. 释放栈顶barrier 对应的记录列表空间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="790" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="930" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-11" value="同步完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="950" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-12" value="6. 收到 BARRGRANT 消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="930" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1060" width="20" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-14" value="开启新区间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-15" value="5. 重置 cache 表状态，收回写权限，置状态为只读，（可选）释放 twin 空间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1070" width="435" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DnbMUQ_gWUHLADPxzxDt-16" value="6. 遍历本地页的home目录，写通知置为 0 ，收回写权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1250" width="435" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

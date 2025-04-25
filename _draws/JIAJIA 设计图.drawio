@@ -1,0 +1,87 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="第 1 页" id="7D9XWzYAm1lJAjl4tkRA">
+    <mxGraphModel dx="743" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kWh15istnHY03IFFt0HX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="134" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-2" value="内存&lt;div&gt;管理器&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="324" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-3" value="SIGSEGV&lt;div&gt;信号处理程序&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="355" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-4" value="SIGIO&lt;div&gt;信号处理程序&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-6" value="锁管理器" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="230" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-7" value="消息处理程序" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="510" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-10" value="初始化模块" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="230" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-12" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="118" as="sourcePoint" />
+            <mxPoint x="610" y="118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-15" value="jia.h" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kWh15istnHY03IFFt0HX-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.9286" y="3" relative="1" as="geometry">
+            <mxPoint x="-5" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-13" value="应用程序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="351" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="99" as="sourcePoint" />
+            <mxPoint x="360" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="99" as="sourcePoint" />
+            <mxPoint x="380" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="98" as="sourcePoint" />
+            <mxPoint x="399" y="118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-21" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="310" as="sourcePoint" />
+            <mxPoint x="610" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kWh15istnHY03IFFt0HX-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="440" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kWh15istnHY03IFFt0HX-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="440" as="sourcePoint" />
+            <mxPoint x="500" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWh15istnHY03IFFt0HX-25" value="操作系统支持（信号/UDP通信）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="290" y="308" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vbfRXx0v03oAJy9MKHmz-1" value="通信&lt;br&gt;&lt;div&gt;管理器&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

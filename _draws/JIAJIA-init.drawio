@@ -1,0 +1,120 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="第 1 页" id="ODnR8qUYhCwet1hBISzN">
+    <mxGraphModel dx="1486" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-1" target="NgHdP1Dh7veABjE6wE-L-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-1" value="配置文件解析" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="146" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-2" target="NgHdP1Dh7veABjE6wE-L-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-2" value="节点 id 获取" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="216" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-7" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NgHdP1Dh7veABjE6wE-L-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.1684" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-3" target="NgHdP1Dh7veABjE6wE-L-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-10" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NgHdP1Dh7veABjE6wE-L-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.2667" y="1" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-3" value="是否为主节点" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-8" target="NgHdP1Dh7veABjE6wE-L-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="440" />
+              <mxPoint x="450" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-8" value="文件拷贝并&lt;div&gt;远程执行程序&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="374" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-13" target="NgHdP1Dh7veABjE6wE-L-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450.0000000000002" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="440" />
+              <mxPoint x="451" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-13" value="运行参数获取" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="294" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="114" as="sourcePoint" />
+            <mxPoint x="350" y="146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="114" as="sourcePoint" />
+            <mxPoint x="390" y="146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-16" value="远程执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="370" y="84" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-17" value="本地执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="84" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-8" target="NgHdP1Dh7veABjE6wE-L-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-19" target="NgHdP1Dh7veABjE6wE-L-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-19" value="内存管理器初始化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="401" y="473" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-20" target="NgHdP1Dh7veABjE6wE-L-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-20" value="同步变量初始化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="401" y="613" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-21" target="NgHdP1Dh7veABjE6wE-L-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-21" value="SIGIO 信号处理&lt;div&gt;程序注册&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="401" y="683" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-31" target="NgHdP1Dh7veABjE6wE-L-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-31" value="通信管理器初始化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="401" y="753" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NgHdP1Dh7veABjE6wE-L-32" target="NgHdP1Dh7veABjE6wE-L-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-32" value="SIGSEGV 信号&lt;div&gt;处理程序注册&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="401" y="543" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NgHdP1Dh7veABjE6wE-L-38" value="消息缓冲初始化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="401" y="823" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

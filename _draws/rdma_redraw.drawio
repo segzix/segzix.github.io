@@ -1,0 +1,223 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="第 1 页" id="6XOlHbQ4quTDH3r99i6s">
+    <mxGraphModel dx="2074" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-101" value="" style="rounded=0;fontSize=15;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-123" target="gNHZgQnfAsuUZqSZn94P-110">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="776" y="877" as="sourcePoint" />
+            <mxPoint x="876" y="777" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-102" value="" style="rounded=0;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-109" target="gNHZgQnfAsuUZqSZn94P-108">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="108.5" y="949" as="sourcePoint" />
+            <mxPoint x="165" y="853" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-103" value="&lt;span style=&quot;font-size: 15px&quot;&gt;rdma接收线程监听old rdma id并接收，并在此基础上创建new rdma id&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="56" y="840" width="261" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-104" style="edgeStyle=none;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-108" target="gNHZgQnfAsuUZqSZn94P-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="83" y="909" as="sourcePoint" />
+            <mxPoint x="-389.5" y="911" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-105" value="" style="rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-103" target="gNHZgQnfAsuUZqSZn94P-106">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-426.5" y="410" as="sourcePoint" />
+            <mxPoint x="80" y="1011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-106" value="&lt;font style=&quot;font-size: 15px&quot;&gt;rdma_id(new)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="133" y="940" width="107" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-107" value="rdma接收线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="195" y="610" width="123" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-108" value="&lt;span style=&quot;font-size: 15px&quot;&gt;rdma_id(old)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="130" y="760" width="113" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-109" value="&lt;span style=&quot;font-size: 15px&quot;&gt;创建rdma id，后续进行监听&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="71" y="672" width="231" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-110" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="404" y="587" width="147" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-111" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="404" y="1050" width="147" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-113" value="" style="rounded=0;fontSize=15;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-106" target="gNHZgQnfAsuUZqSZn94P-111">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="778" y="943" as="sourcePoint" />
+            <mxPoint x="878" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-115" value="" style="rounded=0;fontSize=15;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-138" target="gNHZgQnfAsuUZqSZn94P-111">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="778" y="943" as="sourcePoint" />
+            <mxPoint x="878" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-116" value="" style="rounded=0;fontSize=15;endArrow=classic;endFill=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-111" target="gNHZgQnfAsuUZqSZn94P-141">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="499.75" y="1167" as="sourcePoint" />
+            <mxPoint x="275" y="1229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-117" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700.5" y="93" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-118" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="632.5" y="327" width="252" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-119" value="&lt;span style=&quot;font-size: 15px&quot;&gt;初始化RDMA通信的接收与发送队列&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="gNHZgQnfAsuUZqSZn94P-118">
+          <mxGeometry x="4" y="-24" width="166" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-120" value="&lt;span style=&quot;font-size: 15px&quot;&gt;发送队列(outqueue)&lt;br&gt;接收队列(inqueue)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="gNHZgQnfAsuUZqSZn94P-118">
+          <mxGeometry x="-6" y="67" width="186" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-121" value="" style="rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gNHZgQnfAsuUZqSZn94P-118" source="gNHZgQnfAsuUZqSZn94P-119" target="gNHZgQnfAsuUZqSZn94P-120">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="65" y="137" as="sourcePoint" />
+            <mxPoint x="111" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-122" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;dashed=1;endArrow=none;endFill=0;" edge="1" parent="gNHZgQnfAsuUZqSZn94P-118" target="gNHZgQnfAsuUZqSZn94P-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-123" value="&lt;span style=&quot;font-size: 15px&quot;&gt;分别创建多个rdma接收连接与建立连接线程&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="628" y="486" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-124" value="" style="rounded=0;fontSize=15;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-120" target="gNHZgQnfAsuUZqSZn94P-123">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="276" y="530" as="sourcePoint" />
+            <mxPoint x="376" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-125" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="660" width="226" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-127" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;dashed=1;endArrow=none;endFill=0;" edge="1" parent="gNHZgQnfAsuUZqSZn94P-125" target="gNHZgQnfAsuUZqSZn94P-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-128" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="gNHZgQnfAsuUZqSZn94P-125">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="196" y="55.5" as="sourcePoint" />
+            <mxPoint x="196" y="55.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-129" value="&lt;font style=&quot;font-size: 15px&quot;&gt;rdma_id&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="gNHZgQnfAsuUZqSZn94P-125">
+          <mxGeometry x="44.5" y="101" width="113" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-131" value="" style="rounded=0;fontSize=15;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-117" target="gNHZgQnfAsuUZqSZn94P-132">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="276" y="546" as="sourcePoint" />
+            <mxPoint x="376" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-132" value="&lt;span style=&quot;font-size: 15px&quot;&gt;查询设备号&lt;br&gt;打开IB网卡设备&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="637.5" y="155" width="166" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-133" value="&lt;font style=&quot;font-size: 18px&quot;&gt;ib device&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="664.5" y="230" width="111" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-134" value="" style="rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-133" target="gNHZgQnfAsuUZqSZn94P-119">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="101" y="262" as="sourcePoint" />
+            <mxPoint x="147" y="311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-135" value="" style="rounded=0;fontSize=15;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-132" target="gNHZgQnfAsuUZqSZn94P-133">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="169.5" y="113" as="sourcePoint" />
+            <mxPoint x="169.5" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-136" value="rdma发送线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="620.5" y="610" width="123" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-137" style="edgeStyle=none;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-129" target="gNHZgQnfAsuUZqSZn94P-140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="133.5645161290322" y="852" as="sourcePoint" />
+            <mxPoint x="144" y="901" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-138" value="&lt;span style=&quot;font-size: 15px&quot;&gt;rdma_id(connected)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="668.5" y="940" width="144" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-139" style="edgeStyle=none;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-140" target="gNHZgQnfAsuUZqSZn94P-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189" y="895" as="sourcePoint" />
+            <mxPoint x="189" y="922" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-140" value="&lt;span style=&quot;font-size: 15px&quot;&gt;与所有序号大与自己的主机建立连接&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="627" y="840" width="226" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-141" value="&lt;span style=&quot;font-size: 15px&quot;&gt;合并所有的接收与发送线程，并对RDMA需要用的的内存区域(如outqueue与inqueue)进行注册&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="610.5" y="1110" width="258" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-142" value="&lt;span style=&quot;font-size: 15px&quot;&gt;memory&lt;br&gt;(已注册)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="679.5" y="1230" width="121" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-143" value="" style="rounded=0;fontSize=15;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-142" target="gNHZgQnfAsuUZqSZn94P-145">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="285" y="1053" as="sourcePoint" />
+            <mxPoint x="385" y="953" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-144" value="" style="rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-141" target="gNHZgQnfAsuUZqSZn94P-142">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="143.5" y="1317" as="sourcePoint" />
+            <mxPoint x="189.5" y="1366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-145" value="&lt;span style=&quot;font-size: 15px&quot;&gt;开始进行RDMA通信，创建客户端发送，与服务端监听与处理线程&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1320" width="249" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-146" value="&lt;span style=&quot;font-size: 15px&quot;&gt;listen,client,&lt;br&gt;server thread&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="677" y="1410" width="125" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-147" value="" style="rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-145" target="gNHZgQnfAsuUZqSZn94P-146">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="157.5" y="1464" as="sourcePoint" />
+            <mxPoint x="203.5" y="1513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-148" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="719.5" y="1490" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-149" value="" style="rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-146" target="gNHZgQnfAsuUZqSZn94P-148">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="188.5" y="1472" as="sourcePoint" />
+            <mxPoint x="187" y="1514" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-126" value="&lt;span style=&quot;font-size: 15px&quot;&gt;创建rdma id，&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;后续进行连接&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="620.5" y="670" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-130" style="edgeStyle=none;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-126" target="gNHZgQnfAsuUZqSZn94P-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="772.5" y="921" as="sourcePoint" />
+            <mxPoint x="738.5" y="934" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-151" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-110" target="gNHZgQnfAsuUZqSZn94P-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="850" as="sourcePoint" />
+            <mxPoint x="440" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNHZgQnfAsuUZqSZn94P-152" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNHZgQnfAsuUZqSZn94P-110" target="gNHZgQnfAsuUZqSZn94P-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="524" y="607" as="sourcePoint" />
+            <mxPoint x="400" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
