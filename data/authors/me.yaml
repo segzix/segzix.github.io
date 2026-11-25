@@ -2,99 +2,105 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: segzix(盛子轩)
+  # given: Alex
+  # family: Johnson
 postnominals: []
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+  icon: "🎓"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
+role: 计算机科学与技术专业硕士
+email: shengzixuan.work@foxmail.com
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  中国科学院计算所本硕，关注AI infra与AI 芯片。
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+  - name: 中国科学院大学
+    url: https://www.ucas.ac.cn
 
 links:
   - icon: at-symbol
-    url: mailto:alex@example.com
-    label: E-mail Me
+    url: shengzixuan.work@foxmail.com
+    label: 给我发邮件
   - icon: brands/github
-    url: https://github.com/alexjohnson
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: https://github.com/segzix
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - AI infra
+  - AI 芯片
+  - 系统软件
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: 硕士在读 · AI 系统与 AI 芯片
+    institution: 中国科学院计算技术研究所
+    start: 2025-09-01
+    end: 2028-06-30
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+      微处理器中心架构组，研究方向为 AI 系统与 AI 芯片设计。
+  - degree: 本科 · 计算机科学与技术
+    institution: 中国科学院大学
+    start: 2021-09-01
+    end: 2025-06-30
+    summary: |
+      GPA 3.92/4.0，专业排名 6/102。
+      荣誉：一等奖学金、二等奖学金、三好学生。
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: 系统软件实习生（LLM 推理优化方向）
+    org: 摩尔线程
+    start: 2026-08-01
+    end: 2026-12-31
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
+      面向大模型长上下文推理的 KV Cache 跨实例复用与快照恢复。
+      基于 RDMA 异步传输 + 后台快照 + userfaultfd 按需恢复。
+      Prefill 开销降低约 65%，重启后首次命中 64s → 0.94s。
+  - role: AI 系统实习生（RL 后训练性能优化方向）
+    org: 移动九天 AI
+    start: 2026-03-01
+    end: 2026-06-30
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
-    summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      昇腾 NPU 上异步 RL 后训练（Qwen3-8B, vLLM）性能剖析与优化。
+      异步训练 + 训推卡数配比调整 + 推测解码。
+      单步耗时 1000s → 355s，吞吐最高 3.72×。
 
 skills:
-  - name: Development
+  - name: 训推系统
     items:
-      - label: TypeScript
-        level: 5
-      - label: React
-        level: 5
-      - label: Node.js
-        level: 5
+      - label: vLLM
+        level: 4
+      - label: FSDP
+        level: 4
+      - label: AReaL
+        level: 4
+      - label: 昇腾 NPU 性能剖析
+        level: 3
+      - label: SGLang / Megatron
+        level: 3
+  - name: 高性能通信
+    items:
+      - label: RDMA verbs (RC/Send-Recv/CQ)
+        level: 4
+      - label: RDMA CM
+        level: 3
+      - label: KV Cache 传输 / PD 分离
+        level: 3
+  - name: 系统编程
+    items:
+      - label: C/C++
+        level: 4
       - label: Python
         level: 4
-  - name: DevOps
+      - label: Linux (虚拟内存/userfaultfd)
+        level: 4
+  - name: 体系结构
     items:
-      - label: Docker
+      - label: CPU/GPU 访存层次 · Cache · NUMA · PCIe
         level: 4
-      - label: AWS
-        level: 4
-      - label: CI/CD
-        level: 5
+      - label: CUDA / Triton Kernel
+        level: 3
 
 languages:
-  - name: English
-    level: 5
-    label: Native
+  - name: 英语
+    level: 4
+    label: CET-6 580
 
 awards: []
