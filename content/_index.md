@@ -6,29 +6,29 @@ date: 2026-01-05
 type: landing
 
 sections:
-  # Developer Hero - Gradient background with name, role, social, and CTAs
+  # Developer Hero
   - block: dev-hero
     id: hero
     content:
       username: me
-      greeting: "Hi, I'm"
+      greeting: "你好，我是"
       show_status: true
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I build"
+        prefix: "我在做"
         strings:
-          - "AI Infra"
-          - "AI 芯片"
-          - "云原生"
+          - "LLM 推理系统优化"
+          - "AI 芯片性能建模"
+          - "高性能通信 (RDMA)"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
       cta_buttons:
-        - text: View My Work
+        - text: 查看项目
           url: "#projects"
           icon: arrow-down
-        - text: Get In Touch
+        - text: 联系我
           url: "#contact"
           icon: envelope
     design:
@@ -41,13 +41,13 @@ sections:
           dark: "#0a0a0f"
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
-  
-  # Filterable Portfolio - Alpine.js powered project filtering
+
+  # Portfolio
   - block: portfolio
     id: projects
     content:
-      title: "Featured Projects"
-      subtitle: "A selection of my recent work"
+      title: "项目"
+      subtitle: "我的部分工作"
       count: 0
       filters:
         folders:
@@ -58,11 +58,6 @@ sections:
         - name: 系统
           tag: 系统
       default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false  # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
     design:
       columns: 3
       background:
@@ -71,54 +66,40 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Visual Tech Stack - Icons organized by category
+
+  # Tech Stack
   - block: tech-stack
     id: skills
     content:
-      title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      title: "技术能力"
+      subtitle: "我常用的技术栈"
       categories:
-        - name: Languages
+        - name: 编程语言
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
+            - name: C/C++
+              icon: devicon/cplusplus
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
+        - name: 训推系统
           items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
+            - name: vLLM
+              icon: devicon/pytorch
+            - name: PyTorch / FSDP
+              icon: devicon/pytorch
+        - name: 高性能计算
           items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
-            - name: PostgreSQL
-              icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
+            - name: CUDA
+              icon: devicon/nvidia
+            - name: RDMA
+              icon: devicon/linux
+        - name: 系统 / 工具
           items:
+            - name: Linux
+              icon: devicon/linux
+            - name: Git
+              icon: devicon/git
             - name: Docker
               icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices
-            - name: GitHub Actions
-              icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
     design:
       style: grid
       show_levels: false
@@ -128,50 +109,36 @@ sections:
           dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
+
   # Experience Timeline
   - block: resume-experience
     id: experience
     content:
-      title: Experience
-      date_format: Jan 2006
+      title: 经历
+      date_format: 2006.01
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
+        - title: 系统软件实习生（LLM 推理优化方向）
+          company: 摩尔线程
           company_url: ''
           company_logo: ''
-          location: San Francisco, CA
-          date_start: '2023-01-01'
-          date_end: ''
+          location: 北京
+          date_start: '2026-01-01'
+          date_end: '2026-05-31'
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
+            * 面向大模型长上下文推理的 KV Cache 跨实例复用与快照恢复
+            * 基于 RDMA 异步传输 + 后台快照 + userfaultfd 按需恢复
+            * Prefill 开销降低约 65%，重启后首次命中 64s → 0.94s
+        - title: AI 系统实习生（RL 后训练性能优化方向）
+          company: 移动九天 AI
           company_url: ''
           company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+          location: 北京
+          date_start: '2026-06-01'
+          date_end: '2026-09-30'
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
-          company_url: ''
-          company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
-          description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            * 昇腾 NPU 上异步 RL 后训练（Qwen3-8B, vLLM）性能剖析与优化
+            * 异步训练 + 训推卡数配比调整 + 推测解码
+            * 单步耗时 1000s → 355s，吞吐最高 3.72×
     design:
       columns: '1'
       background:
@@ -180,40 +147,17 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Recent Blog Posts
-  - block: collection
-    id: blog
-    content:
-      title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
-      text: ''
-      filters:
-        folders:
-          - blog
-        exclude_featured: false
-      count: 3
-      order: desc
-    design:
-      view: card
-      columns: 3
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
-  
+
   # Contact Section
   - block: contact-info
     id: contact
     content:
-      title: Get In Touch
-      subtitle: "Let's build something amazing together"
+      title: 联系我
+      subtitle: "欢迎交流 AI Infra / AI 芯片相关机会"
       text: |-
-        I'm always interested in hearing about new projects and opportunities.
-        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+        我对 AI 推理系统、AI 芯片与高性能计算方向的实习和合作很感兴趣。
+        欢迎通过邮件联系我。
+      email: shengzixuan.work@foxmail.com
       autolink: true
     design:
       columns: '1'
@@ -223,22 +167,21 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
+
   # CTA Card
   - block: cta-card
     content:
-      title: "Open to Opportunities"
+      title: "正在寻找机会"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
-        
-        Let's connect and discuss how I can help your team.
+        目前正在寻找 **AI Infra / AI 芯片** 方向的实习与全职机会。
+
+        欢迎联系我进一步沟通。
       button:
-        text: 'Download Resume'
+        text: '下载简历'
         url: uploads/resume.pdf
         new_tab: true
     design:
       card:
-        # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
         css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
         text_color: dark
       background:
