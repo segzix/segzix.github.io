@@ -153,7 +153,7 @@ sections:
       title: 联系我
       subtitle: "欢迎交流 AI Infra / AI 芯片相关机会"
       text: |-
-        我对 AI 推理系统、AI 芯片与高性能计算方向的实习和合作很感兴趣。
+        我对AI Infra、AI 芯片的实习和工作很感兴趣。
         欢迎通过邮件联系我。
       email: shengzixuan.work@foxmail.com
       autolink: true
@@ -172,7 +172,6 @@ sections:
       title: "正在寻找机会"
       text: |-
         目前正在寻找 **AI Infra / AI 芯片** 方向的实习与全职机会。
-
         欢迎联系我进一步沟通。
       button:
         text: '下载简历'
