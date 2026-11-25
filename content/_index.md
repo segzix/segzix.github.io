@@ -55,8 +55,6 @@ sections:
       buttons:
         - name: 全部
           tag: '*'
-        - name: 系统
-          tag: 系统
       default_button_index: 0
     design:
       columns: 3
