@@ -175,7 +175,7 @@ sections:
         欢迎联系我进一步沟通。
       button:
         text: '下载简历'
-        url: uploads/resume.pdf
+        url: uploads/个人简历.pdf
         new_tab: true
     design:
       card:
