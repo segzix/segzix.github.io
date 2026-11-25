@@ -45,7 +45,7 @@ education:
       荣誉：一等奖学金、二等奖学金、三好学生。
 
 experience:
-  - role: 系统软件实习生（LLM 推理优化方向）
+  - role: AIinfra 实习生（LLM 推理优化方向）
     org: 摩尔线程
     start: 2026-08-01
     end: 2026-12-31
@@ -53,7 +53,7 @@ experience:
       面向大模型长上下文推理的 KV Cache 跨实例复用与快照恢复。
       基于 RDMA 异步传输 + 后台快照 + userfaultfd 按需恢复。
       Prefill 开销降低约 65%，重启后首次命中 64s → 0.94s。
-  - role: AI 系统实习生（RL 后训练性能优化方向）
+  - role: AIinfra 实习生（RL 后训练性能优化方向）
     org: 移动九天 AI
     start: 2026-03-01
     end: 2026-06-30
